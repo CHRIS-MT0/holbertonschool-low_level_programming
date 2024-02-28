@@ -3,7 +3,6 @@
 /**
  * print - alphabets
  */
-
 void print_alphabet(void)
 {
     char n = 0;
