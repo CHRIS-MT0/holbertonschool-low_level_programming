@@ -1,17 +1,14 @@
 #include "main.h"
-#include <stdio.h>
+#include <unistd.h>
 
-/**
- *print_numbers - prints the numbers
- *@n: numero entero
- */
 void print_numbers(void)
 {
 int n;
-for (n = 0; n <= 9; n++)
+char d;
+for (n = 0; n < 10; n++)
 {
-putchar(n + '0');
+d = n + '0';
+write(STDOUT_FILENO, &d, 1);
 }
-putchar('\n');
+write(STDOUT_FILENO, "\n", 1);
 }
-
