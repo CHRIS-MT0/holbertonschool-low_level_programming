@@ -12,11 +12,11 @@ char u = '_';
 char b = '\n';
 if (n == 0)
 {
-write(1, &b, 1);
+write(STDOUT_FILENO, &b, 1);
 }
 for (a = 0; a < n;  a++)
-write(1, &u, 1);
+write(STDOUT_FILENO, &u, 1);
 {
-write(1, &b, 1);
+write(STDOUT_FILENO, &b, 1);
 }
 }
