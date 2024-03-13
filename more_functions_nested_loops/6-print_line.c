@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  *print_line - print _
@@ -7,14 +7,16 @@
  */
 void print_line(int n)
 {
-char a;
+int a;
+char u = '_';
+char b = '\n';
 if (n == 0)
 {
-putchar('\n');
+write(1, &b, 1);
 }
 for (a = 0; a < n;  a++)
-putchar('_');
+write(1, &u, 1);
 {
-putchar('\n');
+write(1, &b, 1);
 }
 }
