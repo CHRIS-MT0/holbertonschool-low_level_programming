@@ -17,6 +17,6 @@ write(STDOUT_FILENO, &b, 1);
 for (a = 0; a < n;  a++)
 write(STDOUT_FILENO, &u, 1);
 {
-write(STDOUT_FILENO, &b, 1);
+write(STDOUT_FILENO, "\n", 1);
 }
 }
