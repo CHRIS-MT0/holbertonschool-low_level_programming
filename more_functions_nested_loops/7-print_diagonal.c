@@ -3,6 +3,7 @@
 
 /**
  *print_diagonal - print \
+ *@n: number of times to print \
  */
 void print_diagonal(int n)
 {
