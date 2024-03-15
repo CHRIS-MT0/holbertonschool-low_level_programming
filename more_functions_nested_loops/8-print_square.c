@@ -16,12 +16,12 @@ write(STDOUT_FILENO, "\n", 1);
 else
 {
 for (a = 0; a < size; a++)
-	{
-	  for (b = 0; b < size; b++)
-	    {
-	      write(STDOUT_FILENO, &c, 1);
-	    }
-	  write(STDOUT_FILENO, "\n", 1);
-	}
+{
+for (b = 0; b < size; b++)
+{
+write(STDOUT_FILENO, &c, 1);
+}
+write(STDOUT_FILENO, "\n", 1);
+}
 }
 }
