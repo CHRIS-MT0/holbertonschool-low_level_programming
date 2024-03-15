@@ -6,7 +6,7 @@
  *If the numbers is multiple of three, it print "Fizz"
  *If the numbers is multiple of five, it print "Buzz"
  *If the numbers is multiple of both, it print "FizzBuzz"
- *@return - return 0 if is true
+ * Return: always 0 if is true
  */
 int main(void)
 {
