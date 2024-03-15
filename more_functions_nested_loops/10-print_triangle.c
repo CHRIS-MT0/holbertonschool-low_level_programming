@@ -22,7 +22,7 @@ write(STDOUT_FILENO, " ", 1);
 }
 for (j = 1; j <= a; j++)
 {
-write(STDOUT_FILENO, "*", 1);
+write(STDOUT_FILENO, "#", 1);
 }
 write(STDOUT_FILENO, "\n", 1);
 }
