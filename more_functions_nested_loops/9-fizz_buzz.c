@@ -24,6 +24,10 @@ printf("Fizz ");
 else if (n % 5 == 0)
 {
 printf("Buzz ");
+if (n != 0)
+{
+printf(" ");
+}
 }
 else
 {
