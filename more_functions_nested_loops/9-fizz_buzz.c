@@ -1,8 +1,12 @@
 #include <stdio.h>
 
 /**
- *main - function of the FizzBuzz program.
- *return - return 0 if is true
+ *main - function of the FizzBuzz program
+ *The program print the numbers from 1 to 100
+ *If the numbers is multiple of three, it print "Fizz"
+ *If the numbers is multiple of five, it print "Buzz"
+ *If the numbers is multiple of both, it print "FizzBuzz"
+ *@return - return 0 if is true
  */
 int main(void)
 {
@@ -23,7 +27,7 @@ printf("Buzz ");
 }
 else
 {
-printf("%d ",n);
+printf("%d ", n);
 }
 }
 printf("\n");
