@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 #include <unistd.h>
 
 /**
@@ -11,5 +10,5 @@ while (*str != '\0')
 write(STDOUT_FILENO, str, sizeof(char));
 str++;
 }
-putchar ('\n');
+write(STDOUT_FILENO, "\n", sizeof(char));
 }
