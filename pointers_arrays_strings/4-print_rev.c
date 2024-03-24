@@ -3,7 +3,7 @@
 
 /**
  */
-void imprimir_rev(char *s)
+void print_rev(char *s)
 {
   while (*s != '\0')
     {
