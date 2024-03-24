@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <unistd.h>
 
 /**
  */
@@ -14,4 +15,5 @@ void rev_string(char *s)
         s[i] = s[j];
         s[j] = temp;
     }
+    write(STDOUT_FILENO, s, lenght);
 }
