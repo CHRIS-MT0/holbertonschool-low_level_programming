@@ -13,5 +13,5 @@ void imprimir_rev(char *s)
     {
       write(STDOUT_FILENO, s, sizeof(char));
     }
-  write(STDOUT, "\n", sizeof(char));
+  write(STDOUT_FILENO, "\n", sizeof(char));
 }
