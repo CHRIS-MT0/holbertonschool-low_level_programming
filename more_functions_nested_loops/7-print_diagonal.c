@@ -7,18 +7,21 @@
  */
 void print_diagonal(int n)
 {
-int a, b;
-if (n > 0)
-{
-for (a = 0; a < n ; a++)
-{
-for (b = 0; b < a; b++)
-_putchar(' ');
-_putchar('\\');
-if (a == n - 1)
-continue;
-_putchar('\n');
-}
-}
-_putchar('\n');
+	int diagonal_line, space;
+
+	if (n > 0)
+	{
+		for (diagonal_line = 0; diagonal_line < n ; diagonal_line++)
+		{
+			for (space = 0; space < diagonal_line; space++)
+				_putchar(' ');
+			_putchar('\\');
+
+			if (diagonal_line == n - 1)
+				continue;
+			_putchar('\n');
+		}
+
+	}
+	_putchar('\n');
 }
